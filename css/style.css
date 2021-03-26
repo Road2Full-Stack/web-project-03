@@ -66,6 +66,11 @@ section.home {
     z-index: 20;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #111;
+}
+
 /* TOGGLE */
 .toggle {
     position: fixed;
@@ -323,6 +328,10 @@ section.home {
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
+}
+
+.contact-info .info-box .details a {
+    text-decoration: none;
 }
 
 .contact-info .info-box .contact-icon {
